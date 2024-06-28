@@ -44,12 +44,11 @@ export class ImagesList extends Component {
       .then((res) => {
         console.log(res);
         this.setState((prev) => ({
-          searchResults: [...prev.searchResults, ... res],
+          searchResults: [...prev.searchResults, ...res],
           status: 'success'
         }))
       })  
   }
-
   render() {
     if(this.state.status === 'init') {
       return (

@@ -1,11 +1,13 @@
 import {v4 as uuid} from 'uuid';
 import {DeleteButton } from '../Widgets/RemoveItem';
+import { SolidTitle } from '../Title/SolidTitle';
 
 // Создаем компонент списка продуктов
 export function ProductList({products, onDeleteProduct}) {
   return (
     <>
-      <h2>Product List</h2>
+      <SolidTitle titleText="Product List"/>
+      {/* <h2>Product List</h2> */}
       <ul>
         {products.map((product) => {
             return (
