@@ -1,13 +1,29 @@
 {
   "files": {
-    "main.css": "/hooks/static/css/main.f18b7655.css",
-    "main.js": "/hooks/static/js/main.ade22b71.js",
+    "main.css": "/hooks/static/css/main.39a057ba.css",
+    "main.js": "/hooks/static/js/main.505c0eac.js",
+    "static/js/616.70763255.chunk.js": "/hooks/static/js/616.70763255.chunk.js",
+    "static/css/723.ce013a0c.chunk.css": "/hooks/static/css/723.ce013a0c.chunk.css",
+    "static/js/723.dff3654b.chunk.js": "/hooks/static/js/723.dff3654b.chunk.js",
+    "static/css/263.20685f24.chunk.css": "/hooks/static/css/263.20685f24.chunk.css",
+    "static/js/263.17a5980b.chunk.js": "/hooks/static/js/263.17a5980b.chunk.js",
+    "static/js/270.c7f5f2bf.chunk.js": "/hooks/static/js/270.c7f5f2bf.chunk.js",
+    "static/js/213.916c1298.chunk.js": "/hooks/static/js/213.916c1298.chunk.js",
+    "static/js/630.6b409e2b.chunk.js": "/hooks/static/js/630.6b409e2b.chunk.js",
     "index.html": "/hooks/index.html",
-    "main.f18b7655.css.map": "/hooks/static/css/main.f18b7655.css.map",
-    "main.ade22b71.js.map": "/hooks/static/js/main.ade22b71.js.map"
+    "main.39a057ba.css.map": "/hooks/static/css/main.39a057ba.css.map",
+    "main.505c0eac.js.map": "/hooks/static/js/main.505c0eac.js.map",
+    "616.70763255.chunk.js.map": "/hooks/static/js/616.70763255.chunk.js.map",
+    "723.ce013a0c.chunk.css.map": "/hooks/static/css/723.ce013a0c.chunk.css.map",
+    "723.dff3654b.chunk.js.map": "/hooks/static/js/723.dff3654b.chunk.js.map",
+    "263.20685f24.chunk.css.map": "/hooks/static/css/263.20685f24.chunk.css.map",
+    "263.17a5980b.chunk.js.map": "/hooks/static/js/263.17a5980b.chunk.js.map",
+    "270.c7f5f2bf.chunk.js.map": "/hooks/static/js/270.c7f5f2bf.chunk.js.map",
+    "213.916c1298.chunk.js.map": "/hooks/static/js/213.916c1298.chunk.js.map",
+    "630.6b409e2b.chunk.js.map": "/hooks/static/js/630.6b409e2b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f18b7655.css",
-    "static/js/main.ade22b71.js"
+    "static/css/main.39a057ba.css",
+    "static/js/main.505c0eac.js"
   ]
 }
