@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import {PixelsFetchObject} from '../../services/pexels'
+import s from './ImagesList.module.css';
 
 const base_url = 'https://api.pexels.com/v1/';
 const api_key = 'C0c8jsEIkIzHhJ34LClN7vk5fJStc0qpj2n2MRQ5zthwSKBkRibKG5uF';
@@ -11,6 +12,7 @@ export function ImagesList({searchValue, perPage}) {
   const [status, setStatus] = useState('init');
 
   useEffect(() => {
+    if(!searchValue.trim()) return;
     setStatus('pending');
     newPexelsFetchObject.resetPage();
     newPexelsFetchObject.searchQuery = searchValue; 
@@ -61,14 +63,15 @@ export function ImagesList({searchValue, perPage}) {
   if(status === 'success') {
     return (
       <>
-        <ul>
-          {searchResults.map(el => (
-            <li key={el.id}>
-              <img src={el.src.small} alt={el.alt}/>
-            </li>
+        <ul className={s.imagesList}>
+          {searchResults.length > 0 && 
+            searchResults.map(el => (
+              <li key={el.id}>
+                <img src={el.src.small} alt={el.alt}/>
+              </li>
           ))}
         </ul>   
-        <button type='button' onClick={handleClick}>Load more</button>
+        <button type='button' onClick={handleClick} className={s.loadMoreBtn}>Load more</button>
       </>
     )
   }
